@@ -1,2 +1,14 @@
 
 .DS_Store
+.project
+.settings
+
+web/src/main/webapp/.#webclasspath
+web/.classpath
+web/.tomcatplugin
+web/target
+web/work
+
+entity/.project
+entity/target
+entity/work

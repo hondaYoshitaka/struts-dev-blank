@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>net.struts.dev.blank</groupId>
+	<artifactId>struts-dev-blank</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	
+	<modules>
+		<module>./web</module>
+		<module>./entity</module>
+	</modules>
+	
+	<pluginRepositories>
+		<pluginRepository>
+			<id>maven.seasar.org</id>
+			<name>The Seasar Foundation Maven2 Repository</name>
+			<url>http://maven.seasar.org/maven2</url>
+		</pluginRepository>
+		<pluginRepository>
+			<id>maven-snapshot.seasar.org</id>
+			<name>The Seasar Foundation Maven2 Repository</name>
+			<url>http://maven.seasar.org/maven2-snapshot</url>
+		</pluginRepository>
+	</pluginRepositories>
+	
+	<repositories>
+		<repository>
+			<id>maven.seasar.org</id>
+			<name>The Seasar Foundation Maven2 Repository</name>
+			<url>http://maven.seasar.org/maven2</url>
+		</repository>
+	</repositories>
+	
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.easymock</groupId>
+			<artifactId>easymock</artifactId>
+			<version>2.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
+

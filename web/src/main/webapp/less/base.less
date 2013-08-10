@@ -1,0 +1,36 @@
+@import "mixin.less";
+
+@main-color: #fff;
+@base-color: #f5f1e9;
+@accent-color: #ff6860;
+
+@base-font-color: #776e64;
+
+@white-color: #FFF;
+@black-color: #000;
+@lime-color: #ccdfcc;
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-y: scroll;
+  background: @base-color;
+  color: @base-font-color;
+  
+  // for navbar-fixed-top
+  padding-top: 100px;
+}
+
+header {
+  background: @main-color !important;
+}
+  
+footer {
+  background: @main-color;
+  color: @accent-color;
+  margin-top: 20px;
+  height: 100px;
+}
+  
+aside {
+  background: @main-color;
+}
