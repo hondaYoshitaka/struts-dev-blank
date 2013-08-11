@@ -10,7 +10,7 @@
 	<link rel="stylesheet/less" type="text/css" href="${f:url('/less/base.less')}">
 	
 	<%-- 画面ごとのstylesheets --%>
-	<tiles:importAttribute name="stylesheets" ignore="ture" scope="page" />
+	<tiles:importAttribute name="stylesheets" ignore="true" scope="page" />
 	<c:forEach var="css" items="${stylesheets}">
 		<link rel="stylesheet/less" type="text/css" href="${f:url('/less/')}${f:h(css)}">
 	</c:forEach>
